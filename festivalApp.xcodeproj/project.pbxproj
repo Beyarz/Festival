@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1030A7D32130B3E9006B3EAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1030A7D22130B3E9006B3EAC /* AppDelegate.m */; };
+		1030A7D62130B3E9006B3EAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1030A7D52130B3E9006B3EAC /* ViewController.m */; };
+		1030A7DB2130B3EA006B3EAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1030A7D92130B3EA006B3EAC /* Main.storyboard */; };
+		1030A7DE2130B3EA006B3EAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1030A7DD2130B3EA006B3EAC /* main.m */; };
+		1040404021C6EC5400827BE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1040403F21C6EC5400827BE4 /* Assets.xcassets */; };
+		1040404221C6EE4300827BE4 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 1040404121C6EE4300827BE4 /* AppIcon.appiconset */; };
+		10E0C8D721D6C3CA00F3BBF6 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 10E0C8D621D6C3CA00F3BBF6 /* LICENSE */; };
+		10F05CD721B13ADA00301A47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1030A7D92130B3EA006B3EAC /* Main.storyboard */; };
+		10F05CD821B13ADA00301A47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1030A7D92130B3EA006B3EAC /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1030A7E52130B3EA006B3EAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1030A7C62130B3E9006B3EAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1030A7CD2130B3E9006B3EAC;
+			remoteInfo = festivalApp;
+		};
+		1030A7F02130B3EA006B3EAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1030A7C62130B3E9006B3EAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1030A7CD2130B3E9006B3EAC;
+			remoteInfo = festivalApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1030A7CE2130B3E9006B3EAC /* festivalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = festivalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1030A7D12130B3E9006B3EAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1030A7D22130B3E9006B3EAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1030A7D42130B3E9006B3EAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1030A7D52130B3E9006B3EAC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1030A7DA2130B3EA006B3EAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1030A7DC2130B3EA006B3EAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1030A7DD2130B3EA006B3EAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1030A7DF2130B3EA006B3EAC /* festivalApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = festivalApp.entitlements; sourceTree = "<group>"; };
+		1030A7E42130B3EA006B3EAC /* festivalAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = festivalAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1030A7EF2130B3EA006B3EAC /* festivalAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = festivalAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1030A8022130B45E006B3EAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		1040403F21C6EC5400827BE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1040404121C6EE4300827BE4 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon.appiconset; sourceTree = "<group>"; };
+		10CD189921B529BE0077E66F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		10E0C8D621D6C3CA00F3BBF6 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1030A7CB2130B3E9006B3EAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1030A7E12130B3EA006B3EAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1030A7EC2130B3EA006B3EAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1030A7C52130B3E9006B3EAC = {
+			isa = PBXGroup;
+			children = (
+				10E0C8D621D6C3CA00F3BBF6 /* LICENSE */,
+				10CD189921B529BE0077E66F /* README.md */,
+				1030A7D02130B3E9006B3EAC /* festivalApp */,
+				1030A7CF2130B3E9006B3EAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1030A7CF2130B3E9006B3EAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1030A7CE2130B3E9006B3EAC /* festivalApp.app */,
+				1030A7E42130B3EA006B3EAC /* festivalAppTests.xctest */,
+				1030A7EF2130B3EA006B3EAC /* festivalAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1030A7D02130B3E9006B3EAC /* festivalApp */ = {
+			isa = PBXGroup;
+			children = (
+				1030A7D12130B3E9006B3EAC /* AppDelegate.h */,
+				1030A7D22130B3E9006B3EAC /* AppDelegate.m */,
+				1030A7D42130B3E9006B3EAC /* ViewController.h */,
+				1030A7D52130B3E9006B3EAC /* ViewController.m */,
+				1040403F21C6EC5400827BE4 /* Assets.xcassets */,
+				1040404121C6EE4300827BE4 /* AppIcon.appiconset */,
+				1030A7D92130B3EA006B3EAC /* Main.storyboard */,
+				1030A7DC2130B3EA006B3EAC /* Info.plist */,
+				1030A7DD2130B3EA006B3EAC /* main.m */,
+				1030A7DF2130B3EA006B3EAC /* festivalApp.entitlements */,
+			);
+			path = festivalApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1030A7CD2130B3E9006B3EAC /* festivalApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1030A7F82130B3EA006B3EAC /* Build configuration list for PBXNativeTarget "festivalApp" */;
+			buildPhases = (
+				1030A7CA2130B3E9006B3EAC /* Sources */,
+				1030A7CB2130B3E9006B3EAC /* Frameworks */,
+				1030A7CC2130B3E9006B3EAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = festivalApp;
+			productName = festivalApp;
+			productReference = 1030A7CE2130B3E9006B3EAC /* festivalApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1030A7E32130B3EA006B3EAC /* festivalAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1030A7FB2130B3EA006B3EAC /* Build configuration list for PBXNativeTarget "festivalAppTests" */;
+			buildPhases = (
+				1030A7E02130B3EA006B3EAC /* Sources */,
+				1030A7E12130B3EA006B3EAC /* Frameworks */,
+				1030A7E22130B3EA006B3EAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1030A7E62130B3EA006B3EAC /* PBXTargetDependency */,
+			);
+			name = festivalAppTests;
+			productName = festivalAppTests;
+			productReference = 1030A7E42130B3EA006B3EAC /* festivalAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1030A7EE2130B3EA006B3EAC /* festivalAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1030A7FE2130B3EA006B3EAC /* Build configuration list for PBXNativeTarget "festivalAppUITests" */;
+			buildPhases = (
+				1030A7EB2130B3EA006B3EAC /* Sources */,
+				1030A7EC2130B3EA006B3EAC /* Frameworks */,
+				1030A7ED2130B3EA006B3EAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1030A7F12130B3EA006B3EAC /* PBXTargetDependency */,
+			);
+			name = festivalAppUITests;
+			productName = festivalAppUITests;
+			productReference = 1030A7EF2130B3EA006B3EAC /* festivalAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1030A7C62130B3E9006B3EAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Beyar N";
+				TargetAttributes = {
+					1030A7CD2130B3E9006B3EAC = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					1030A7E32130B3EA006B3EAC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 1030A7CD2130B3E9006B3EAC;
+					};
+					1030A7EE2130B3EA006B3EAC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 1030A7CD2130B3E9006B3EAC;
+					};
+				};
+			};
+			buildConfigurationList = 1030A7C92130B3E9006B3EAC /* Build configuration list for PBXProject "festivalApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1030A7C52130B3E9006B3EAC;
+			productRefGroup = 1030A7CF2130B3E9006B3EAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1030A7CD2130B3E9006B3EAC /* festivalApp */,
+				1030A7E32130B3EA006B3EAC /* festivalAppTests */,
+				1030A7EE2130B3EA006B3EAC /* festivalAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1030A7CC2130B3E9006B3EAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1040404021C6EC5400827BE4 /* Assets.xcassets in Resources */,
+				1040404221C6EE4300827BE4 /* AppIcon.appiconset in Resources */,
+				10E0C8D721D6C3CA00F3BBF6 /* LICENSE in Resources */,
+				1030A7DB2130B3EA006B3EAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1030A7E22130B3EA006B3EAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F05CD721B13ADA00301A47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1030A7ED2130B3EA006B3EAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F05CD821B13ADA00301A47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1030A7CA2130B3E9006B3EAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1030A7D62130B3E9006B3EAC /* ViewController.m in Sources */,
+				1030A7DE2130B3EA006B3EAC /* main.m in Sources */,
+				1030A7D32130B3E9006B3EAC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1030A7E02130B3EA006B3EAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1030A7EB2130B3EA006B3EAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1030A7E62130B3EA006B3EAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1030A7CD2130B3E9006B3EAC /* festivalApp */;
+			targetProxy = 1030A7E52130B3EA006B3EAC /* PBXContainerItemProxy */;
+		};
+		1030A7F12130B3EA006B3EAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1030A7CD2130B3E9006B3EAC /* festivalApp */;
+			targetProxy = 1030A7F02130B3EA006B3EAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1030A7D92130B3EA006B3EAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1030A7DA2130B3EA006B3EAC /* Base */,
+				1030A8022130B45E006B3EAC /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1030A7F62130B3EA006B3EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1030A7F72130B3EA006B3EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1030A7F92130B3EA006B3EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = festivalApp/festivalApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = festivalApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bn.festivalApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1030A7FA2130B3EA006B3EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = festivalApp/festivalApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = festivalApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bn.festivalApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1030A7FC2130B3EA006B3EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = festivalAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bn.festivalAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/festivalApp.app/Contents/MacOS/festivalApp";
+			};
+			name = Debug;
+		};
+		1030A7FD2130B3EA006B3EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = festivalAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bn.festivalAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/festivalApp.app/Contents/MacOS/festivalApp";
+			};
+			name = Release;
+		};
+		1030A7FF2130B3EA006B3EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = festivalAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bn.festivalAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = festivalApp;
+			};
+			name = Debug;
+		};
+		1030A8002130B3EA006B3EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = festivalAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bn.festivalAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = festivalApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1030A7C92130B3E9006B3EAC /* Build configuration list for PBXProject "festivalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1030A7F62130B3EA006B3EAC /* Debug */,
+				1030A7F72130B3EA006B3EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1030A7F82130B3EA006B3EAC /* Build configuration list for PBXNativeTarget "festivalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1030A7F92130B3EA006B3EAC /* Debug */,
+				1030A7FA2130B3EA006B3EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1030A7FB2130B3EA006B3EAC /* Build configuration list for PBXNativeTarget "festivalAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1030A7FC2130B3EA006B3EAC /* Debug */,
+				1030A7FD2130B3EA006B3EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1030A7FE2130B3EA006B3EAC /* Build configuration list for PBXNativeTarget "festivalAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1030A7FF2130B3EA006B3EAC /* Debug */,
+				1030A8002130B3EA006B3EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1030A7C62130B3E9006B3EAC /* Project object */;
+}

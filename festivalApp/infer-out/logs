@@ -1,0 +1,11 @@
+[9155][environment] CWD = ~/Desktop/Work/guiObjective/new/festivalApp
+[9155][environment] No .inferconfig file found
+[9155][environment] Project root = ~/Desktop/Work/guiObjective/new/festivalApp
+[9155][environment] INFER_ARGS =   command line arguments:   inferAnalyzer: checkers
+[9155][environment] Active checkers: annotation reachability (Java), biabduction (C/C++/ObjC, Java), fragment retains view (Java), immutable cast (Java), liveness (C/C++/ObjC), printf args (Java), ownership (C/C++/ObjC), RacerD (C/C++/ObjC, Java), SIOF (C/C++/ObjC), uninitialized variables (C/C++/ObjC)
+[9155][environment] Infer log identifier is 
+Infer version v0.15.0
+[9155][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[9155][environment] 
+[9155][  user warn] Nothing to compile. Have you run `infer capture`? Try cleaning the build first.
+[9155][   progress] There was nothing to analyze.
