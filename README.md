@@ -1,15 +1,13 @@
 #  Festival
 Festival is an application built for macOS only.
-It is heavily inspired by Partytime, another app with the same purpose,
-the reason why I created a similar app is because Partytime is closed source.
-And I wanted to see how the app worked under the hood but there was no way for
-me to do so (except disassemble it).
+It is heavily inspired by Partytime.
+My goal was the create a similar app that would have the same purpose but with my own touch to it.
+Of course I could just contribute to their project but I wouldn't learn that much from it,
+creating my own version from scratch without looking at how they did it would be a huge challenge.
+At the end of the day, it was totally worth it!
 
-This sparked the Festivalapp project, my goal
-was the create an similar app that would have the same purpose but with my own touch
-to it, the only thing that this app differs from Partytime is the fact that Festival is open source.
-
-This app also offers a status bar which is able to display the current status, some of them includes
+The only thing Festival differs from Partytime is the status bar,
+it is able to display the current status, some of them includes
 * Unkown contact
 * Not a number
 * Amount of messages delivered
