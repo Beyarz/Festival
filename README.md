@@ -1,6 +1,6 @@
 #  Festival
 Festival is an application built for macOS only.
-It is heavily inspired by Partytime, another app with the same purpose.
+It is heavily inspired by Partytime.
 My goal was the create a similar app that would have the same purpose but with my own touch to it.
 Of course I could just contribute to their project but I wouldn't learn that much from it,
 creating my own version from scratch without looking at how they did it would be a huge challenge.
