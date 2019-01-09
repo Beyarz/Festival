@@ -16,6 +16,9 @@ it is able to display the current status, some of them includes
 * Permissions required
 * etc
 
+### Download
+You can download Festival from [here](Products/festivalApp.app)
+
 ### Credits
 App icon made by [Freepik](https://www.flaticon.com/authors/freepik) from Flaticon.
 
