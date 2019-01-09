@@ -17,7 +17,7 @@ it is able to display the current status, some of them includes
 * etc
 
 ### Download
-You can download Festival from [here](Products/festivalApp.app)
+You can download Festival from [here](Products/festivalApp.zip)
 
 ### Credits
 App icon made by [Freepik](https://www.flaticon.com/authors/freepik) from Flaticon.
