@@ -44,5 +44,5 @@ TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 `[default] Unable to load Info.plist exceptions (eGPUOverrides)`  
 This issue is not directly from the app project itself, this issue is from a bug on Mojave.
 
-### Screenshots from the app
-![gui.png](gui.png) ![demo.png](demo.png)
+### Demo
+![demo.png](demo.png)
