@@ -22,6 +22,9 @@ You can download Festival from [here](Products/festivalApp.zip)
 ### Credits
 App icon made by [Freepik](https://www.flaticon.com/authors/freepik) from Flaticon.
 
+# Swift edition
+The Swift edition of this project can be found [here](https://github.com/devmaximilian/Festival.app)
+
 ### License
 Festival is licensed under the [WTFPL](LICENSE) license, version 2.
 ```
