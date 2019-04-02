@@ -16,9 +16,6 @@ it is able to display the current status, some of them includes
 * Permissions required
 * etc
 
-### Download
-You can download Festival from [here](Products/festivalApp.zip)
-
 # Swift edition
 The Swift edition of this project can be found [here](https://github.com/devmaximilian/Festival.app)
 
