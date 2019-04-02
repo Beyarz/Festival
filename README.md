@@ -1,5 +1,4 @@
-![cover.png](cover.png)
-
+<img src="cover.png" height="50%" width="50%" />
 Festival is an application built for macOS only.
 It is heavily inspired by Partytime.
 My goal was the create a similar app that would have the same purpose but with my own touch to it.
