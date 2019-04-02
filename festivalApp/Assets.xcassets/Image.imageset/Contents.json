@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "door-16.png",
+      "filename" : "logo-256.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "door-32.png",
+      "filename" : "logo-512.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "door-65.png",
+      "filename" : "logo-1024.png",
       "scale" : "3x"
     }
   ],

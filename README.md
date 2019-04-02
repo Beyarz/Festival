@@ -1,4 +1,5 @@
-#  Festival
+![cover.png](cover.png)
+
 Festival is an application built for macOS only.
 It is heavily inspired by Partytime.
 My goal was the create a similar app that would have the same purpose but with my own touch to it.
@@ -18,9 +19,6 @@ it is able to display the current status, some of them includes
 
 ### Download
 You can download Festival from [here](Products/festivalApp.zip)
-
-### Credits
-App icon made by [Freepik](https://www.flaticon.com/authors/freepik) from Flaticon.
 
 # Swift edition
 The Swift edition of this project can be found [here](https://github.com/devmaximilian/Festival.app)
