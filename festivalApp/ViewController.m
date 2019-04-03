@@ -31,8 +31,7 @@
 // https:developer.apple.com/documentation/objectivec/nsobject/1402907-awakefromnib?language=occ
 // Changing background color to the selected one
 - (void)awakeFromNib {
-    NSColor *backColor = [NSColor colorWithRed:0.70 green:0.60 blue:0.90 alpha:1];
-    self.view.window.backgroundColor = backColor;
+    self.view.window.backgroundColor = [NSColor colorWithPatternImage:[NSImage imageNamed:@"background.png"]];
 }
 
 // Prompts the user to accept Festival to control Messages

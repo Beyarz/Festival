@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -50,7 +51,7 @@
                     <window key="window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" deferred="NO" hasShadow="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" tabbingMode="disallowed" titlebarAppearsTransparent="YES" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-                        <rect key="contentRect" x="600" y="400" width="250" height="150"/>
+                        <rect key="contentRect" x="600" y="400" width="298" height="171"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
                         <connections>
                             <outlet property="delegate" destination="B8D-0N-5wS" id="98r-iN-zZc"/>
@@ -62,7 +63,7 @@
                 </windowController>
                 <customObject id="Oky-zY-oP4" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="181"/>
+            <point key="canvasLocation" x="75" y="178"/>
         </scene>
         <!--Application-->
         <scene sceneID="hIz-AP-VOD">
@@ -77,42 +78,33 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" state="on" borderStyle="bezel" focusRingType="none" alignment="center" placeholderString="# times" bezelStyle="round" id="BON-aM-KeG">
                                     <font key="font" metaFont="system"/>
-                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="tertiaryLabelColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                                 <connections>
                                     <action selector="timesInputField:" target="XfG-lQ-9wD" id="zh7-jH-Vsb"/>
                                 </connections>
                             </textField>
-                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gLz-Bt-cT4">
-                                <rect key="frame" x="46" y="119" width="98" height="17"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
-                                <buttonCell key="cell" type="inline" title="Open iMessage" bezelStyle="inline" alignment="center" borderStyle="border" inset="2" id="e5g-b3-gBq">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="smallSystemBold"/>
-                                </buttonCell>
-                                <connections>
-                                    <action selector="openclick:" target="XfG-lQ-9wD" id="9AX-s0-2t2"/>
-                                </connections>
-                            </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jsj-ik-TDx">
-                                <rect key="frame" x="45" y="98" width="100" height="17"/>
+                                <rect key="frame" x="45" y="98" width="120" height="19"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
-                                <buttonCell key="cell" type="inline" title="Close iMessage" bezelStyle="inline" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="s5X-OT-gzW">
+                                <buttonCell key="cell" type="squareTextured" title="Close iMessage" bezelStyle="texturedSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="s5X-OT-gzW">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="smallSystemBold"/>
+                                    <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <color key="contentTintColor" name="Color"/>
                                 <connections>
                                     <action selector="closeclick:" target="XfG-lQ-9wD" id="83g-bD-V7m"/>
                                 </connections>
                             </button>
                             <button wantsLayer="YES" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mJy-Nj-xOi">
-                                <rect key="frame" x="45" y="77" width="52" height="17"/>
+                                <rect key="frame" x="45" y="75" width="59" height="20"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
-                                <buttonCell key="cell" type="inline" title="Deliver" bezelStyle="inline" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="9JG-CU-TdC">
+                                <buttonCell key="cell" type="squareTextured" title="Deliver" bezelStyle="texturedSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="9JG-CU-TdC">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="smallSystemBold"/>
+                                    <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <color key="contentTintColor" name="Color"/>
                                 <connections>
                                     <action selector="middleclick:" target="XfG-lQ-9wD" id="HtK-c0-qqA"/>
                                 </connections>
@@ -131,8 +123,8 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" state="on" borderStyle="bezel" focusRingType="none" alignment="center" placeholderString="Recipient" bezelStyle="round" id="qqZ-UY-dsy">
                                     <font key="font" metaFont="system"/>
-                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="tertiaryLabelColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                                 <connections>
                                     <action selector="recipientInputField:" target="XfG-lQ-9wD" id="Gtf-CN-3Cu"/>
@@ -143,8 +135,8 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="Status" drawsBackground="YES" id="YvR-mc-hCu">
                                     <font key="font" metaFont="system"/>
-                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="underPageBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="textColor" name="selectedControlColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="tertiaryLabelColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                             <textField focusRingType="none" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ozN-Ve-JPT">
@@ -174,6 +166,18 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gLz-Bt-cT4">
+                                <rect key="frame" x="45" y="117" width="120" height="23"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                <buttonCell key="cell" type="squareTextured" title="Open iMessage" bezelStyle="texturedSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="e5g-b3-gBq">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <color key="contentTintColor" name="Color"/>
+                                <connections>
+                                    <action selector="openclick:" target="XfG-lQ-9wD" id="9AX-s0-2t2"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                     <connections>
@@ -186,7 +190,12 @@
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="100" y="539"/>
+            <point key="canvasLocation" x="21" y="569"/>
         </scene>
     </scenes>
+    <resources>
+        <namedColor name="Color">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
 </document>
