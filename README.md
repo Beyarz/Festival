@@ -26,7 +26,7 @@ The Swift edition of this project can be found [here](https://github.com/devmaxi
 This issue is not directly from the app project itself, this issue is from a bug on Mojave.
 
 ###### Demonstration
-<img src="gui.png" height="25%" width="25%" /> <img src="demo.png" height="50%" width="50%" />
+<img src="gui.png" height="50%" width="50%" /> <img src="demo.png" height="50%" width="50%" />
 
 ###### License
 Festival is licensed under the [WTFPL](LICENSE) license, version 2.
