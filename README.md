@@ -21,7 +21,7 @@ The app can be downloaded from [here](product/festivalApp.zip?raw=true)
 ### Swift edition
 The Swift edition of this project can be found [here](https://github.com/devmaximilian/Festival.app)
 
-###### Demonstration
+### Demonstration
 <img src="gui.png" height="40%" width="40%" /> <img src="demo.png" height="50%" width="50%" />
 
 ###### Known Issues
