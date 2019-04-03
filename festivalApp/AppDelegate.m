@@ -13,9 +13,7 @@
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {}
-
 - (void)applicationWillTerminate:(NSNotification *)aNotification {}
-
 // Terminates Festival when clicking the close button
 - (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender {
     return TRUE;

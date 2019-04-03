@@ -2,7 +2,7 @@
 //  ViewController.m
 //  festivalApp
 //
-//  Created by Beyar on 2018-08-24.
+//  Created by Beyarz on 2018-08-24.
 //
 
 #import "ViewController.h"
@@ -31,7 +31,7 @@
 // https:developer.apple.com/documentation/objectivec/nsobject/1402907-awakefromnib?language=occ
 // Changing background color to the selected one
 - (void)awakeFromNib {
-    NSColor *backColor = [NSColor systemOrangeColor];
+    NSColor *backColor = [NSColor colorWithRed:0.70 green:0.60 blue:0.90 alpha:1];
     self.view.window.backgroundColor = backColor;
 }
 
