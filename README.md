@@ -14,12 +14,21 @@ it is able to display the current status, some of them includes
 * Not a contact
 * Permissions success
 * Permissions required
-* etc
 
-# Swift edition
+### Download
+The app can be found [here](product/festivalApp.zip)
+
+### Swift edition
 The Swift edition of this project can be found [here](https://github.com/devmaximilian/Festival.app)
 
-### License
+###### Known Issues
+`[default] Unable to load Info.plist exceptions (eGPUOverrides)`  
+This issue is not directly from the app project itself, this issue is from a bug on Mojave.
+
+###### Demonstration
+![demo.png](demo.png) ![gui.png](gui.png)
+
+###### License
 Festival is licensed under the [WTFPL](LICENSE) license, version 2.
 ```
 DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
@@ -36,10 +45,3 @@ TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 
 0. You just DO WHAT THE FUCK YOU WANT TO.
 ```
-
-### Known Issues
-`[default] Unable to load Info.plist exceptions (eGPUOverrides)`  
-This issue is not directly from the app project itself, this issue is from a bug on Mojave.
-
-### Demonstration
-![demo.png](demo.png)
