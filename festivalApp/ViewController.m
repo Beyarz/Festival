@@ -19,7 +19,6 @@
     [recipientInputContent setFocusRingType:NSFocusRingTypeNone];
     [timesInputContent setFocusRingType:NSFocusRingTypeNone];
     [bodyInputContent setFocusRingType:NSFocusRingTypeNone];
-    
 }
 
 - (void)setRepresentedObject:(id)representedObject {
