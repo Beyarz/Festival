@@ -2,7 +2,7 @@
 //  ViewController.h
 //  festivalApp
 //
-//  Created by Beyarz on 2018-08-24.
+//  Created by Beyar on 2018-08-24.
 //
 
 #import <Cocoa/Cocoa.h>
